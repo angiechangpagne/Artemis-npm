@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  flex-direction: column-reverse; 
+  align-items: center;
+  flex-grow:2;
+  justify-content: space-around;
+}
+
+.blue-box{
+  background-color: rgb(175, 249, 250);
+  flex:1;
+}
+
+.red-box{
+  background-color: rgb(82, 29, 33);
+  flex: 2;
+}

@@ -1,16 +1,11 @@
 .container {
   display: grid;
-  grid-template: auto / repeat(4, 1fr) ;
-  grid-template-areas: 
-    "nav nav nav ad"
-    "news content content ad"
-    "footer footer footer footer";
+  grid-template-columns: 1fr 25em 1fr;
+  grid-template-rows: 200px 100px;
 
+  align-items: start;
+  justify-items: center;
+  grid-gap: 10px;
 }
 
-#naviation { grid-area: nav; }
-#big-ad { grid-area: ad; }
-#news { grid-area: news; }
-#content { grid-area: content; }
-#footer { grid-area: footer; }
-
+#b{ height: 70%; width: 70% }
