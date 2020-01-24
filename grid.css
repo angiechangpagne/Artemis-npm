@@ -1,0 +1,16 @@
+.container {
+  display: grid;
+  grid-template: auto / repeat(4, 1fr) ;
+  grid-template-areas: 
+    "nav nav nav ad"
+    "news content content ad"
+    "footer footer footer footer";
+
+}
+
+#naviation { grid-area: nav; }
+#big-ad { grid-area: ad; }
+#news { grid-area: news; }
+#content { grid-area: content; }
+#footer { grid-area: footer; }
+
